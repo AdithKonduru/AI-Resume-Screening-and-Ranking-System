@@ -1,8 +1,8 @@
-streamlit
-pandas
-numpy
-scikit-learn
+streamlit==1.33.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
 spacy==3.7.2
-pdfminer.six
-matplotlib
+pdfminer.six==20231228
+matplotlib==3.8.4
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
