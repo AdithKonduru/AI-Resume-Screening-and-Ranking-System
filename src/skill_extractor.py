@@ -1,19 +1,23 @@
 import spacy
 
-# load NLP model
-nlp = spacy.load("en_core_web_sm")
+# Load NLP model safely
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    from spacy.cli import download
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
-# basic skill list (you can expand later)
+# basic skill list
 skills_list = [
-    "python","machine learning","sql","deep learning",
-    "tensorflow","pytorch","pandas","scikit-learn",
-    "nlp","spacy","nltk","transformers",
-    "data analysis","statistics","tableau",
-    "power bi","excel","docker","flask","django"
+    "python", "machine learning", "sql", "deep learning",
+    "tensorflow", "pytorch", "pandas", "scikit-learn",
+    "nlp", "spacy", "nltk", "transformers",
+    "data analysis", "statistics", "tableau",
+    "power bi", "excel", "docker", "flask", "django"
 ]
 
 def extract_skills(text):
-
     doc = nlp(text)
 
     found_skills = []
