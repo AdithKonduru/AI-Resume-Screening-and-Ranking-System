@@ -1,0 +1,11 @@
+job_title,skills,job_description
+Data Scientist,"Python, Machine Learning, SQL, Statistics, Pandas, Scikit-learn, Data Visualization, NLP","Analyze large datasets, build predictive models, and communicate insights using machine learning and statistical techniques."
+Machine Learning Engineer,"Python, Machine Learning, TensorFlow, PyTorch, Model Deployment, Docker, APIs","Design, build, and deploy scalable machine learning models and pipelines for production systems."
+Data Analyst,"SQL, Excel, Python, Data Visualization, Tableau, Power BI, Data Cleaning","Analyze business data, build dashboards, and generate insights to support decision making."
+AI Engineer,"Python, Deep Learning, TensorFlow, PyTorch, NLP, Computer Vision","Develop artificial intelligence systems using deep learning, NLP, and computer vision techniques."
+Python Developer,"Python, Django, Flask, APIs, SQL, Git",Develop backend systems and APIs using Python frameworks such as Django or Flask.
+Backend Developer,"Python, Java, Node.js, REST APIs, SQL, Microservices","Build scalable backend services, APIs, and integrate databases for web applications."
+NLP Engineer,"Python, NLP, Transformers, SpaCy, NLTK, Deep Learning","Develop natural language processing models for text analysis, chatbots, and language understanding."
+Business Intelligence Analyst,"SQL, Power BI, Tableau, Data Warehousing, ETL, Excel",Create dashboards and reports to help organizations make data-driven business decisions.
+Data Engineer,"Python, SQL, ETL, Apache Spark, Hadoop, Data Pipelines","Design and maintain data pipelines, manage large datasets, and ensure efficient data processing systems."
+Computer Vision Engineer,"Python, OpenCV, Deep Learning, TensorFlow, PyTorch, Image Processing",Build systems that analyze and interpret visual data using computer vision techniques.

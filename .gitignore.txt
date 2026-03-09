@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+temp_*.pdf
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+
+# Streamlit cache
+.streamlit/
