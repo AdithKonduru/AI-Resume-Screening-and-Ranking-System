@@ -6,7 +6,8 @@ try:
 except:
     from spacy.cli import download
     download("en_core_web_sm")
-    nlp = spacy.load("en_core_web_sm")# basic skill list (you can expand later)
+    nlp = spacy.load("en_core_web_sm")
+# basic skill list (you can expand later)
 skills_list = [
     "python","machine learning","sql","deep learning",
     "tensorflow","pytorch","pandas","scikit-learn",
